@@ -1,72 +1,116 @@
-# MediNex 2 - Medication Reminder App 💊
+<div align="center">
+  <h1>MediNex 2</h1>
+  <p>Your all-in-one health companion for medication management and wellness tracking</p>
+  
+  [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+  [![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Overview
+  <img src="https://img.shields.io/github/last-commit/asadriz1/medinex-2?style=flat-square" alt="Last commit" />
+  <img src="https://img.shields.io/github/repo-size/asadriz1/medinex-2?style=flat-square" alt="Repo size" />
+  <img src="https://img.shields.io/github/issues/asadriz1/medinex-2?style=flat-square" alt="Issues" />
+  <img src="https://img.shields.io/github/forks/asadriz1/medinex-2?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/stars/asadriz1/medinex-2?style=flat-square" alt="Stars" />
 
-MediNex 2 is a modern, sleek medication reminder application built with React Native and Expo. It helps users manage their medications, track refills, view their medication history, and includes a menstrual cycle tracker feature.
+  <img src="assets/app-preview.png" alt="MediNex 2 App Preview" width="300" />
+</div>
 
-## Features
+## 🌟 Features
 
-- **Medication Management**: Add, edit, and delete medications with customizable dosage schedules
-- **Reminders**: Get notified when it's time to take your medications
-- **Calendar View**: See all your medication schedules in a calendar format
-- **History Log**: Track your medication adherence over time
-- **Refill Tracker**: Never run out of important medications again
-- **Menstrual Cycle Tracker**: Track your menstrual cycle and fertility windows
+### 💊 Medication Management
+- **Smart Reminders**: Never miss a dose with customizable notifications
+- **Medication Database**: Track all your medications in one place
+- **Dosage Tracking**: Log when you take your medications
+- **Refill Alerts**: Get notified when it's time to refill prescriptions
 
-## New in MediNex 2
+### 💧 Hydration Tracker (New!)
+- **Water Intake Logging**: Track your daily water consumption
+- **Customizable Goals**: Set and adjust your daily water intake target
+- **Visual Progress**: Beautiful water level indicator showing daily progress
+- **Quick Add**: One-tap logging for common water amounts
+- **Hydration History**: View your water intake history and trends
 
-- **Modern UI**: Completely redesigned with a sleek purple, teal, and coral color scheme
-- **Improved Navigation**: Fixed routing issues with the cycle tracker feature
-- **Enhanced Performance**: Optimized for better speed and reliability
+### 🌙 Menstrual Cycle Tracker
+- **Period Prediction**: Forecast your next period and fertile window
+- **Symptom Logging**: Track physical and emotional symptoms
+- **Cycle History**: View patterns and trends over time
 
-## Getting Started
+### 📊 Health Insights
+- **Medication Adherence**: Visualize your medication-taking habits
+- **Hydration Analytics**: Track your water intake patterns
+- **Health Trends**: Identify correlations between symptoms and medications
 
-1. Install dependencies
+## 🚀 Getting Started
 
+### Prerequisites
+- Node.js (v16 or later)
+- npm or yarn
+- Expo CLI (`npm install -g expo-cli`)
+- iOS Simulator / Android Emulator or physical device with Expo Go
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   npm install
+   git clone https://github.com/asadriz1/medinex-2.git
+   cd medinex-2
    ```
 
-2. Start the app
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
+3. **Start the development server**
    ```bash
    npx expo start
    ```
 
-## Development
+4. **Run on your device**
+   - Scan the QR code with your phone's camera (iOS) or the Expo Go app (Android)
+   - Or press `i` for iOS Simulator / `a` for Android Emulator
 
-This project uses Expo Router for navigation with file-based routing. The main screens are located in the `app` directory:
+## 🛠️ Tech Stack
 
-- `home.tsx`: Main dashboard with quick actions
-- `calendar/index.tsx`: Calendar view of all medications
-- `history/index.tsx`: Medication history log
-- `refills/index.tsx`: Refill tracking
-- `menstrual-tracker.tsx`: Menstrual cycle tracking
+- **Frontend**: React Native with TypeScript
+- **Navigation**: Expo Router
+- **State Management**: React Hooks & Context API
+- **Storage**: AsyncStorage for local data persistence
+- **UI Components**: React Native Paper & Custom Components
+- **Icons**: Expo Vector Icons
+- **Charts**: React Native SVG Charts
 
-## Technologies Used
+## 📱 Screens
 
-- React Native
-- Expo
-- Expo Router
-- AsyncStorage for local data persistence
-- Linear Gradient for UI elements
+| Home | Medications | Water Tracker | Cycle Tracker |
+|------|-------------|---------------|---------------|
+| <img src="assets/home-screen.png" width="200"> | <img src="assets/medications-screen.png" width="200"> | <img src="assets/water-tracker.png" width="200"> | <img src="assets/cycle-tracker.png" width="200"> |
 
-```bash
-npm run reset-project
-```
+## 🤝 Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Contributions are welcome! Please follow these steps:
 
-## Learn more
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📄 License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Join the community
+## 🙏 Acknowledgments
 
-Join our community of developers creating universal apps.
+- [Expo](https://expo.dev/) for the amazing development platform
+- [React Native Paper](https://reactnativepaper.com/) for beautiful UI components
+- All contributors who have helped improve this project
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+<div align="center">
+  Made with ❤️ by Asad Rizvi
+</div>

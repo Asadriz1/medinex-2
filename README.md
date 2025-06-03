@@ -83,11 +83,13 @@
 - **Icons**: Expo Vector Icons
 - **Charts**: React Native SVG Charts
 
-## 📱 Screens
+## 📱 App Screenshots
 
-| Home | Medications | Water Tracker | Cycle Tracker |
-|------|-------------|---------------|---------------|
-| <img src="assets/home-screen.png" width="200"> | <img src="assets/medications-screen.png" width="200"> | <img src="assets/water-tracker.png" width="200"> | <img src="assets/cycle-tracker.png" width="200"> |
+| Home Screen | Medication Tracker | Cycle Tracker |
+|-------------|-------------------|---------------|
+| <img src="main.png" alt="MediNex 2 Home Screen" width="250"> | <img src="medical.png" alt="MediNex 2 Medication Tracker" width="250"> | <img src="cycle.png" alt="MediNex 2 Cycle Tracker" width="250"> |
+
+*Screenshots from the latest version of MediNex 2*
 
 ## 🤝 Contributing
 

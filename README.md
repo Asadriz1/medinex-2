@@ -55,3 +55,66 @@
    ```bash
    git clone https://github.com/asadriz1/medinex-2.git
    cd medinex-2
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Start the development server
+
+bash
+Copy
+Edit
+npx expo start
+Run on your device
+
+Scan the QR code with your phone's camera (iOS) or the Expo Go app (Android)
+
+Or press i for iOS Simulator / a for Android Emulator
+
+🛠️ Tech Stack
+Frontend: React Native with TypeScript
+
+Navigation: Expo Router
+
+State Management: React Hooks & Context API
+
+Storage: AsyncStorage for local data persistence
+
+UI Components: React Native Paper & Custom Components
+
+Icons: Expo Vector Icons
+
+Charts: React Native SVG Charts
+
+📱 Screens
+Main Screen	Cycle Tracker	Medication Manager
+<img src="main.png" width="200">	<img src="cycle.png" width="200">	<img src="medical.png" width="200">
+
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/amazing-feature)
+
+Commit your changes (git commit -m 'Add some amazing feature')
+
+Push to the branch (git push origin feature/amazing-feature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+Expo for the amazing development platform
+
+React Native Paper for beautiful UI components
+
+All contributors who have helped improve this project
+
+<div align="center"> Made with ❤️ by Asad Rizvi </div> ```

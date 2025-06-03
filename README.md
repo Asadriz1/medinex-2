@@ -55,8 +55,6 @@
    ```bash
    git clone https://github.com/asadriz1/medinex-2.git
    cd medinex-2
-   ```
-
 2. **Install dependencies**
    ```bash
    npm install
@@ -95,11 +93,20 @@
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. **Fork the repository**
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some amazing feature'
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. **Open a Pull Request**
 
 ## 📄 License
 

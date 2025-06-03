@@ -1,0 +1,32 @@
+import type { AllEyesOptions, BitArray, BitMatrix, BorderRadius, EyeOptions, EyePosition, CornerType } from './types';
+export declare function transformBitArrayToMatrix(bitArray: BitArray, qrCodeSize: number): BitMatrix;
+export declare function transformBorderRadiusToArray(borderRadius?: BorderRadius): number[] | undefined;
+export declare function transformEyeOptionsToCommonPattern(options?: EyeOptions | AllEyesOptions): AllEyesOptions | undefined;
+export declare function getPieceSquarePathData(x: number, y: number, size: number): string;
+export declare function getPieceRoundedSquarePathData({ x, y, size, cornerType, borderRadius, isGlued, isLiquid, bitMatrix, }: {
+    x: number;
+    y: number;
+    size: number;
+    cornerType?: CornerType;
+    borderRadius?: number[];
+    isGlued?: boolean;
+    isLiquid?: boolean;
+    bitMatrix: BitMatrix;
+}): string;
+export declare function getPieceLiquidPathData(x: number, y: number, size: number, borderRadius: number): string;
+export declare function getOuterEyePathData(position: EyePosition, pieceSize: number, qrSize: number): string;
+export declare function getRoundedOuterEyePathData(position: EyePosition, borderRadius: number[], pieceSize: number, qrSize: number): string;
+export declare function getInnerEyePathData(position: EyePosition, pieceSize: number, qrSize: number): string;
+export declare function getRoundedInnerEyePathData(position: EyePosition, borderRadius: number[], pieceSize: number, qrSize: number): string;
+export declare function isLiquidPieceInEyes(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfTopLeftOuterEye(x: number, y: number): boolean;
+export declare function isCoordsOfTopRightOuterEye(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfBottomLeftOuterEye(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfOuterEyes(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfTopLeftInnerEye(x: number, y: number): boolean;
+export declare function isCoordsOfTopRightInnerEye(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfBottomLeftInnerEye(x: number, y: number, qrSize: number): boolean;
+export declare function isCoordsOfInnerEyes(x: number, y: number, qrSize: number): boolean;
+export declare function consoleWarn(message: string | unknown): void;
+export declare function consoleError(message: string | unknown): void;
+//# sourceMappingURL=helpers.d.ts.map
